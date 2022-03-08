@@ -7,6 +7,7 @@ module.exports = {
   rules: {
     "vue/script-setup-uses-vars": "error",
     "vue/no-v-html": "off",
+    "vue/multi-word-component-names": "off",
   },
   // set paser option to allow await at top level in js modules
   parserOptions: {

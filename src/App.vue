@@ -1,9 +1,11 @@
 <template>
   <HeaderComponent />
+  <HomeVue />
 </template>
 
 <script setup>
 import HeaderComponent from './components/Header.vue'
+import HomeVue from './components/Home.vue'
 
 </script>
 
@@ -12,13 +14,9 @@ import HeaderComponent from './components/Header.vue'
 @tailwind components;
 @tailwind utilities;
 
-<style>
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
 }
 </style>

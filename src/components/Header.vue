@@ -10,7 +10,7 @@
       </svg>
     </button>
     <a
-      href="#"
+      href="#home"
       class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2"
       @click="closeMenu"
     >
@@ -24,7 +24,7 @@
         <li>
           <a
             class="text-castro text-lg hover:underline border-castro border-b-2 border-opacity-50 w-screen block"
-            href="#"
+            href="#home"
             @click="closeMenu"
           >Home</a>
         </li>
@@ -61,7 +61,7 @@
     <nav class="flex w-full">
       <a
         class="text-castro text-xl font-bold hover:underline m-auto"
-        href="#"
+        href="#home"
         @click="closeMenu"
       >Home</a>
       <a
@@ -69,7 +69,7 @@
         href="#content"
         @click="closeMenu"
       >Content</a>
-      <a href="#" class="m-auto" @click="closeMenu">
+      <a href="#home" class="m-auto" @click="closeMenu">
         <img src="/logo_castro.png" alt class="h-12" />
       </a>
       <a
