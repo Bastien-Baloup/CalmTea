@@ -13,6 +13,15 @@
       <strong class="font-bold text-3xl">Calm Tea</strong> is a fresh beverage specialy crafted for a relaxing moment.
       <br />Simply open the can, lay back, and enjoy the taste of white tea, peppermint, jasmine and chamomile.
     </p>
+    <div class="flex w-1/2 justify-around">
+      <a
+        class="block p-3 text-xl text-center w-1/6 text-castro border-castro border-2 rounded-md hover:bg-beige active:bg-castro active:text-beige"
+        href="#contact"
+      >Contact us</a>
+      <button
+        class="block p-3 text-xl text-center w-1/6 text-peppermint border-castro bg-castro border-2 rounded-md hover:bg-beige hover:text-castro active:bg-castro active:text-beige"
+      >Buy it</button>
+    </div>
   </section>
 </template>
 
