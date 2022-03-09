@@ -1,7 +1,7 @@
 <template>
   <div
     id="content"
-    class="flex flex-col-reverse lg:flex-row justify-evenly w-full bg-beige text-castro overflow-hidden scroll-mt-20"
+    class="flex flex-col-reverse lg:flex-row justify-evenly w-full bg-beige text-castro scroll-mt-20"
   >
     <div
       class="m-auto text-xl h-max lg:w-max lg:max-h-full p-5 flex-shrink lg:overflow-auto lg:z-10 bg-transparent"
