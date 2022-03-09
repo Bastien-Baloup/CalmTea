@@ -1,4 +1,5 @@
 ![Calm Tea logo](public/logo_castro.png)
+![cans img](public/frontAndBack.png)
 
 # Calm Tea
 
