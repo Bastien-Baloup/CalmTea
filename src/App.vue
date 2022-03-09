@@ -1,11 +1,13 @@
 <template>
   <HeaderComponent />
   <HomeVue />
+  <ContentVue />
 </template>
 
 <script setup>
 import HeaderComponent from './components/Header.vue'
 import HomeVue from './components/Home.vue'
+import ContentVue from './components/Content.vue'
 
 </script>
 
