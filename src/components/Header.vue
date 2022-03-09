@@ -2,6 +2,9 @@
   <!-- larger header with visible nav -->
   <header class="h-20 w-full bg-peppermint fixed top-0 z-20 hidden lg:flex">
     <nav class="flex w-full">
+      <a href="#hero" class="m-auto" @click="closeMenu">
+        <img src="/logo_castro.png" alt class="h-12" />
+      </a>
       <a
         class="text-castro text-xl font-bold hover:underline m-auto"
         href="#home"
@@ -12,19 +15,12 @@
         href="#content"
         @click="closeMenu"
       >Content</a>
-      <a href="#hero" class="m-auto" @click="closeMenu">
-        <img src="/logo_castro.png" alt class="h-12" />
-      </a>
+
       <a
         class="text-castro text-xl font-bold hover:underline m-auto"
         href="#contact"
         @click="closeMenu"
       >Contact</a>
-      <a
-        class="text-castro text-xl font-bold hover:underline m-auto"
-        href="#faq"
-        @click="closeMenu"
-      >FAQ</a>
     </nav>
   </header>
   <!-- small screen header with burger menu -->
@@ -70,13 +66,6 @@
             href="#contact"
             @click="closeMenu"
           >Contact</a>
-        </li>
-        <li>
-          <a
-            class="text-castro text-lg hover:underline border-castro border-b-2 border-opacity-50 w-screen block"
-            href="#faq"
-            @click="closeMenu"
-          >FAQ</a>
         </li>
       </ul>
     </nav>
