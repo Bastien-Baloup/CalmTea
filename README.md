@@ -1,7 +1,12 @@
-# Vue 3 + Vite
+![Calm Tea logo](public/logo_castro.png)
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+# Calm Tea
 
-## Recommended IDE Setup
+Calm tea is a product presentation mockup for my portfoliot.
 
-- [VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.volar)
+It can be found [here]() !
+
+## Dependencies
+
+- [Vue.js](https://vuejs.org/)
+- [TailwindCSS](https://tailwindcss.com/)
