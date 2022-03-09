@@ -67,7 +67,7 @@
   }
 }
 
-// set custom detail arrow
+/* set custom detail arrow */
 summary {
   list-style-image: url(/chevron-right-solid.svg);
 }
@@ -77,7 +77,7 @@ summary::-webkit-details-marker {
   color: transparent;
 }
 
-// change custom detail arrow when open
+/* change custom detail arrow when open */
 details[open] summary {
   list-style-image: url(/chevron-down-solid.svg);
 }
