@@ -1,4 +1,5 @@
 <template>
+  <!-- small screen header with burger menu -->
   <header v-if="!lgAndLarger" class="flex h-20 w-full bg-peppermint fixed top-0 z-20">
     <button
       class="my-auto mx-4 fill-castro p-1 outline-none focus:outline-castro hover:outline-castro rounded"
@@ -10,7 +11,7 @@
       </svg>
     </button>
     <a
-      href="#home"
+      href="#hero"
       class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2"
       @click="closeMenu"
     >
@@ -57,6 +58,7 @@
       @click="closeMenu"
     />
   </header>
+  <!-- larger header with visible nav -->
   <header v-else class="flex h-20 w-full bg-peppermint fixed top-0 z-20">
     <nav class="flex w-full">
       <a
@@ -69,7 +71,7 @@
         href="#content"
         @click="closeMenu"
       >Content</a>
-      <a href="#home" class="m-auto" @click="closeMenu">
+      <a href="#hero" class="m-auto" @click="closeMenu">
         <img src="/logo_castro.png" alt class="h-12" />
       </a>
       <a
