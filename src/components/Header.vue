@@ -1,6 +1,34 @@
 <template>
+  <!-- larger header with visible nav -->
+  <header class="h-20 w-full bg-peppermint fixed top-0 z-20 hidden lg:flex">
+    <nav class="flex w-full">
+      <a
+        class="text-castro text-xl font-bold hover:underline m-auto"
+        href="#home"
+        @click="closeMenu"
+      >Home</a>
+      <a
+        class="text-castro text-xl font-bold hover:underline m-auto"
+        href="#content"
+        @click="closeMenu"
+      >Content</a>
+      <a href="#hero" class="m-auto" @click="closeMenu">
+        <img src="/logo_castro.png" alt class="h-12" />
+      </a>
+      <a
+        class="text-castro text-xl font-bold hover:underline m-auto"
+        href="#contact"
+        @click="closeMenu"
+      >Contact</a>
+      <a
+        class="text-castro text-xl font-bold hover:underline m-auto"
+        href="#faq"
+        @click="closeMenu"
+      >FAQ</a>
+    </nav>
+  </header>
   <!-- small screen header with burger menu -->
-  <header v-if="!lgAndLarger" class="flex h-20 w-full bg-peppermint fixed top-0 z-20">
+  <header class="flex h-20 w-full bg-peppermint fixed top-0 z-20 lg:hidden">
     <button
       class="my-auto mx-4 fill-castro p-1 outline-none focus:outline-castro hover:outline-castro rounded"
       aria-label="menu"
@@ -58,42 +86,10 @@
       @click="closeMenu"
     />
   </header>
-  <!-- larger header with visible nav -->
-  <header v-else class="flex h-20 w-full bg-peppermint fixed top-0 z-20">
-    <nav class="flex w-full">
-      <a
-        class="text-castro text-xl font-bold hover:underline m-auto"
-        href="#home"
-        @click="closeMenu"
-      >Home</a>
-      <a
-        class="text-castro text-xl font-bold hover:underline m-auto"
-        href="#content"
-        @click="closeMenu"
-      >Content</a>
-      <a href="#hero" class="m-auto" @click="closeMenu">
-        <img src="/logo_castro.png" alt class="h-12" />
-      </a>
-      <a
-        class="text-castro text-xl font-bold hover:underline m-auto"
-        href="#contact"
-        @click="closeMenu"
-      >Contact</a>
-      <a
-        class="text-castro text-xl font-bold hover:underline m-auto"
-        href="#faq"
-        @click="closeMenu"
-      >FAQ</a>
-    </nav>
-  </header>
 </template>
 
 <script setup>
-import { breakpointsTailwind, useBreakpoints } from '@vueuse/core'
 import { ref } from 'vue'
-
-const breakpoints = useBreakpoints(breakpointsTailwind)
-const lgAndLarger = breakpoints.greater('lg')
 
 const menuIsOpen = ref(false)
 const openMenu = () => menuIsOpen.value = true
