@@ -15,11 +15,11 @@
     </p>
     <div class="flex w-1/2 justify-around">
       <a
-        class="block p-3 text-xl text-center w-1/6 text-castro border-castro border-2 rounded-md hover:bg-beige active:bg-castro active:text-beige"
+        class="block p-3 text-xl text-center w-1/6 min-w-max text-castro border-castro border-2 rounded-md hover:bg-beige active:bg-castro active:text-beige"
         href="#contact"
       >Contact us</a>
       <button
-        class="block p-3 text-xl text-center w-1/6 text-peppermint border-castro bg-castro border-2 rounded-md hover:bg-beige hover:text-castro active:bg-castro active:text-beige"
+        class="block p-3 text-xl text-center w-1/6 min-w-max text-peppermint border-castro bg-castro border-2 rounded-md hover:bg-beige hover:text-castro active:bg-castro active:text-beige"
       >Buy it</button>
     </div>
   </section>
