@@ -1,6 +1,6 @@
 <template>
   <!-- larger header with visible nav -->
-  <header class="h-20 w-full bg-peppermint fixed top-0 z-20 hidden lg:flex">
+  <header class="h-20 w-full bg-peppermint fixed top-0 z-20 hidden lg:flex rounded-b-xl">
     <nav class="flex w-full">
       <a href="#hero" class="m-auto" @click="closeMenu">
         <img src="/logo_castro.png" alt class="h-12" />
@@ -24,7 +24,7 @@
     </nav>
   </header>
   <!-- small screen header with burger menu -->
-  <header class="flex h-20 w-full bg-peppermint fixed top-0 z-20 lg:hidden">
+  <header class="flex h-20 w-full bg-peppermint fixed top-0 z-20 lg:hidden rounded-b-xl">
     <button
       class="my-auto mx-4 fill-castro p-1 outline-none focus:outline-castro hover:outline-castro rounded"
       aria-label="menu"

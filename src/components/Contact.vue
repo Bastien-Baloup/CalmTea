@@ -1,7 +1,7 @@
 <template>
   <div
     id="contact"
-    class="flex flex-col lg:flex-row justify-evenly w-full bg-peppermint text-castro scroll-mt-20 py-5 items-center lg:h-max"
+    class="flex flex-col lg:flex-row justify-evenly w-full bg-peppermint text-castro scroll-mt-20 py-5 items-center lg:h-max rounded-t-xl drop-shadow-xl"
   >
     <section
       class="w-full lg:w-1/2 px-5 mb-5 lg:flex lg:flex-col lg:h-full lg:text-2xl lg:mb-40 max-w-2xl"
